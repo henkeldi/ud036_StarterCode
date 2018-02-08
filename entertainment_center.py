@@ -60,7 +60,10 @@ def main():
         "https://www.youtube.com/watch?v=gG22XNhtnoY"
     )
 
+    # Make a list of all movies to be included into the website
     movies = [movie1, movie2, movie3, movie4, movie5, movie6]
+
+    # Generates and displays the webpage in a webbrowser
     ft.open_movies_page(movies)
 
 
